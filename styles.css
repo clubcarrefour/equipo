@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.team {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.red-team {
+    background-color: #ff0000;
+}
+
+.blue-team {
+    background-color: #0000ff;
+}
+
+h1 {
+    color: white;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+img {
+    max-width: 80%;
+    height: auto;
+}
+
+/* Desktop styles */
+@media (min-width: 768px) {
+    main {
+        flex-direction: row;
+    }
+    
+    .team {
+        width: 50%;
+    }
+}
