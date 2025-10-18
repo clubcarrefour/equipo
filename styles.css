@@ -24,17 +24,17 @@ main {
 }
 
 .red-team {
-    background-color: #ff0000;
+    background-color: #c5291d;
 }
 
 .blue-team {
-    background-color: #0000ff;
+    background-color: #094f97;
 }
 
 h1 {
     color: white;
-    font-size: 2rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif, Arial;
     margin-bottom: 2rem;
     text-align: center;
 }
